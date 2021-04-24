@@ -161,8 +161,8 @@
 .about{
     margin-bottom: 100px;
 }
-.container2{
-    max-width: 1310px;
+.container-sub{
+    max-width: 1330px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -218,7 +218,7 @@
     background-repeat: no-repeat;
     background-size: cover
 }
-.team__container{
+.container-fluid{
     max-width: 1290px;
     margin: 0 auto;
     padding: 0 15px;
@@ -230,7 +230,6 @@
 .our__team-title{
     height: 100px;
     text-align: center;
-    padding: 20px;
     font-size: 12px;
     line-height: 14px;
     font-weight: 700;
@@ -323,9 +322,7 @@
     background: #E5E5E5;
     border-radius: 5px;
     margin-right: 10px;
-    &::placeholder{
-        padding: 25px 0 0 15px;
-    }
+    padding-left: 20px;
 }
 .book__form-btn{
     max-width: 563px;
@@ -354,4 +351,181 @@
     position: absolute;
     left: 300px;
     top: 68px;
+}
+.desert{
+    background-image: url(../images/specialtys1-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.desert__title{
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    padding: 44px;
+    text-transform: uppercase;
+}
+.desert__inner-item{
+    display: flex;
+    align-items: center;
+}
+.desert__inner-right{
+    max-width: 605px;
+    margin-left: 75px;
+    text-align: center;
+}
+.desert__right-title{
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-family: 'Banny Bold Round';
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    &::before{
+        content: '';
+        width: 60px;
+        height: 5px;
+        border-radius: 50px;
+        background: #E8C300;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+    }
+}
+.desert__right-subtitle{
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+}
+.desert__right-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 590px;
+}
+
+.desert__inner .slick-dots{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 45px 0;
+    button{
+        padding: 0;
+        font-size: 0;
+        border: none;
+        margin: 12px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        outline: none;
+        cursor: pointer;
+    }
+}
+.desert__inner .slick-active{
+    button{
+        background-color: #fff;
+    }
+}
+.price{
+    text-align: center;
+    color: #000;
+    margin-bottom: 100px;
+    button{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        border: none;
+        border-right: 1px solid rgba(51, 51, 51, 0.2);
+        background-color: #fff;
+        margin: 0 30px 50px;
+        cursor: pointer;
+    }
+}
+.price__title{
+    font-family: 'Banny Bold Round';
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    &::before{
+        content: '';
+        width: 60px;
+        height: 5px;
+        border-radius: 50px;
+        background: #E8C300;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+    }
+}
+.price__text{
+    font-weight: 700;
+    max-width: 565px;
+    margin: 0 auto 50px;
+}
+.price-box-box{
+    display: flex;
+    justify-content: space-between;
+}
+.price__menu-name{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Banny Bold Round';
+    color: #333;
+}
+.price__menu-text{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 25px;
+    color: rgb(126, 125, 125);
+    text-align: start;
+}
+.events{
+    background-image: url(../images/privatess-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.events__title{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 44px 0;
+}
+.events__inner-img{
+    display: flex;
+}
+.events__left-box{
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        transition: all .5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.events__phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    line-height: 12px;
+    span{
+        font-weight: 700;
+    }
 }

@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playball&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="fonts/banny-cufonfonts-webfont (1)/style.css">
+  <link rel="stylesheet" type="text/css" href="carousel/slick/slick.css" />
+  <link rel="stylesheet" href="mixitup/">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -16,26 +18,24 @@
 
   <header class="header">
     <div class="header__top-container">
-      <div class="header__top">
-        <div class="header__top-inner">
-          <nav class="header__top-left-menu">
-            <ul class="header__top-left-link">
-              <li class="header__top-left-item"><a href="#">HOME</a></li>
-              <li class="header__top-left-item"><a href="#">ABOUT</a></li>
-              <li class="header__top-left-item"><a href="#">TEAM</a></li>
-              <li class="header__top-left-item"><a href="#">BOOKING</a></li>
-            </ul>
-          </nav>
-          <a class="header__logo" href="#"><img src="images/header__logo.svg" alt=""></a>
-          <nav class="header__top-right-menu">
-            <ul class="header__top-right-link">
-              <li class="header__top-right-item"><a href="#">MENU</a></li>
-              <li class="header__top-right-item"><a href="#">GALERIE</a></li>
-              <li class="header__top-right-item"><a href="#">EVENTS</a></li>
-              <li class="header__top-right-item"><a href="#">CONTACT</a></li>
-            </ul>
-          </nav>
-        </div>
+      <div class="header__top-inner">
+        <nav class="header__top-left-menu">
+          <ul class="header__top-left-link">
+            <li class="header__top-left-item"><a href="#">HOME</a></li>
+            <li class="header__top-left-item"><a href="#">ABOUT</a></li>
+            <li class="header__top-left-item"><a href="#">TEAM</a></li>
+            <li class="header__top-left-item"><a href="#">BOOKING</a></li>
+          </ul>
+        </nav>
+        <a class="header__logo" href="#"><img src="images/header__logo.svg" alt=""></a>
+        <nav class="header__top-right-menu">
+          <ul class="header__top-right-link">
+            <li class="header__top-right-item"><a href="#">MENU</a></li>
+            <li class="header__top-right-item"><a href="#">GALERIE</a></li>
+            <li class="header__top-right-item"><a href="#">EVENTS</a></li>
+            <li class="header__top-right-item"><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
     <div class="header__content">
@@ -64,7 +64,7 @@
   </header>
 
   <section class="about">
-    <div class="container2">
+    <div class="container-sub">
       <div class="about__inner">
         <div class="about__left">
           <h2 class="about__title">about us</h2>
@@ -83,7 +83,7 @@
   </section>
 
   <section class="team">
-    <div class="team__container">
+    <div class="container-fluid">
       <h2 class="our__team-title">OUR TEAM</h2>
       <div class="team__inner">
         <div class="team__left">
@@ -92,8 +92,11 @@
         </div>
         <div class="team__right">
           <h2 class="team__title">MASTER CHEF</h2>
-          <p class="team__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
-          <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          <p class="team__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+            molestie est a, tempor magna.</p>
+          <p class="team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+            ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam
+            nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
         </div>
       </div>
     </div>
@@ -121,12 +124,451 @@
     </div>
   </section>
 
-<section class="price">
+  <section class="desert">
+    <div class="container-fluid">
+      <div class="desert__title">specialties</div>
+      <div class="desert__inner">
+        <div class="desert__inner-item-sup">
+          <div class="desert__inner-item">
+            <div class="desert__inner-left"><img class="desert__left-img" src="images/desert-left.png" alt=""></div>
+            <div class="desert__inner-right">
+              <h2 class="desert__right-title">chocolate pancakes</h2>
+              <p class="desert__right-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus, molestie est a, tempor magna.</p>
+              <p class="desert__right-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+                semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="desert__inner-item-sup">
+          <div class="desert__inner-item">
+            <div class="desert__inner-left"><img class="desert__left-img" src="images/desert-left.png" alt=""></div>
+            <div class="desert__inner-right">
+              <h2 class="desert__right-title">chocolate pancakes</h2>
+              <p class="desert__right-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus, molestie est a, tempor magna.</p>
+              <p class="desert__right-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+                semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="desert__inner-item-sup">
+          <div class="desert__inner-item">
+            <div class="desert__inner-left"><img class="desert__left-img" src="images/desert-left.png" alt=""></div>
+            <div class="desert__inner-right">
+              <h2 class="desert__right-title">chocolate pancakes</h2>
+              <p class="desert__right-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus, molestie est a, tempor magna.</p>
+              <p class="desert__right-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+                sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis
+                semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container-fluid">
+      <h2 class="price__title">DELICIOUS MENU</h2>
+      <p class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie
+        est a, tempor magna.</p>
+      <button type="button" data-filter=".category-a">SOUPE</button>
+      <button type="button" data-filter=".category-b">PIZZA</button>
+      <button type="button" data-filter=".category-c">PASTA</button>
+      <button type="button" data-filter=".category-d">DESERT</button>
+      <button type="button" data-filter=".category-f">WINE</button>
+      <button type="button" data-filter=".category-g">BEER</button>
+      <button type="button" data-filter=".category-i">DRINKS</button>
+    <div class="price__menu">
+      <div class="price-box mix category-a">
+        <div class="price-box-box">
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        </div>
+      </div>
+      <div class="price__box">
+        <div class="price-box-box mix category-b">
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+      </div>
+      </div>
+      <div class="price__box">
+        <div class="price-box-box mix category-c">
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+        <ul class="price__menu-link">
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+          <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+          <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        </ul>
+      </div>
+    </div>
+    <div class="price__box">
+      <div class="price-box-box mix category-d">
+      <ul class="price__menu-link">
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      </ul>
+      <ul class="price__menu-link">
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      </ul>
+      <ul class="price__menu-link">
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+        <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+        <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      </ul>
+    </div>
+  </div>
+  <div class="price__box">
+    <div class="price-box-box mix category-f">
+    <ul class="price__menu-link">
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    </ul>
+    <ul class="price__menu-link">
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    </ul>
+    <ul class="price__menu-link">
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+      <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+      <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    </ul>
+  </div>
+</div>
+<div class="price__box">
+  <div class="price-box-box mix category-g">
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+</div>
+</div>
+<div class="price__box">
+  <div class="price-box-box mix category-i">
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+  <ul class="price__menu-link">
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+    <li class="price__menu-name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</li>
+    <li class="price__menu-text">Integer ullamcorper neque eu purus euismod</li>
+  </ul>
+</div>
+</div>
+    </div>
+  </section>
 
-</section>
-
+  <section class="events">
+    <div class="container-fluid">
+      <div class="events__title">PRIVATE EVENTS</div>
+      <div class="events__inner-img">
+        <div class="events__left-box"><img src="images/privates-left.png" alt=""></div>
+        <div class="events__right-box"> <img src="images/privates-right.png" alt=""></div>
+      </div>
+      <a class="events__phone" href="tel:40729131637">For private events please call: <span>+40 729 131 637/+40 726 458 782</span>  or use the contact form.</a>
+    </div>
+  </section>
 
   <script src="js/main.min.js"></script>
+  <script src="mixitup/dist/mixitup.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="carousel/slick/slick.min.js"></script>
 </body>
 
 </html>
